@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Create a function Pascal triangle
+"""Create a function Pascal triangle
 """
 
 
@@ -14,6 +14,6 @@ def pascal_triangle(n):
         triangle.append(row)
     for line in range(2, n):
         for i in range(1, line):
-            triangle[line][i] = triangle[line - 1]
-            [i - 1] + triangle[line - 1][i]
+            triangle[line][i] = triangle[
+                line - 1][i - 1] + triangle[line - 1][i]
     return triangle
