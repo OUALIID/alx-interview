@@ -185,5 +185,6 @@
 <p>Concatenating these bytes together yields the UTF-8 encoded representation of &quot;Hello&quot;: <code>01001000 01100101 01101100 01101111</code>.</p>
 <p>This example demonstrates how UTF-8 efficiently encodes text by using variable-length sequences of bytes to represent characters, allowing for the representation of a diverse range of characters while maintaining compatibility with ASCII.</p>
 
+<div align="center">
 <h2>Conclusion</h2>
-<p>In conclusion, UTF-8 encoding serves as a versatile and efficient method for representing Unicode characters in digital systems. Its variable-length encoding scheme enables the representation of a wide range of characters while maintaining compatibility with ASCII. By understanding the mechanics of UTF-8 encoding, individuals can navigate text processing tasks with clarity and precision, ensuring effective communication across linguistic boundaries.</p>
+<p>In conclusion, UTF-8 encoding serves as a versatile and efficient method for representing Unicode characters in digital systems. Its variable-length encoding scheme enables the representation of a wide range of characters while maintaining compatibility with ASCII. By understanding the mechanics of UTF-8 encoding, individuals can navigate text processing tasks with clarity and precision, ensuring effective communication across linguistic boundaries.</p></div>
