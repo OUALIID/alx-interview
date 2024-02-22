@@ -8,10 +8,8 @@
 Matrix rotation is a fundamental operation in computer science, frequently encountered in various domains such as image processing, graphics rendering, and numerical analysis. Python, with its versatility and ease of use, offers multiple techniques to efficiently rotate 2D matrices. This comprehensive guide aims to equip beginners with a thorough understanding of matrix rotation in Python, covering different methods and providing detailed explanations along with accompanying code examples.
 
 
-
 <h2>Understanding Matrix Rotation:</h2>
 Before diving into the methods for rotating matrices, it's essential to grasp the concept of matrix rotation. Rotating a matrix involves reorganizing its elements to change its orientation, typically by 90, 180, or 270 degrees clockwise or counterclockwise.
-
 
 
 <h2>Method 1: Transposition and Reversal:</h2>
@@ -31,7 +29,6 @@ Explanation:
 This function rotates the input matrix by 90 degrees clockwise by reversing its rows and then transposing it.
 
 
-
 <h2>Method 2: Reverse and Transpose:</h2>
 Alternatively, we can reverse each row of the matrix and then transpose it to achieve the desired rotation. This method presents a different perspective on matrix rotation and can be equally effective.
 
@@ -49,7 +46,6 @@ Explanation:
 This function rotates the input matrix by 90 degrees counterclockwise by transposing it and then reversing its rows.
 
 
-
 <h2>Method 3: Pythonic One-Liner:</h2>
 For concise and elegant code, a Pythonic one-liner utilizing list comprehensions and the zip function offers a compact solution to rotate the matrix by 90 degrees clockwise.
 
@@ -65,10 +61,8 @@ Explanation:
 This one-liner rotates the input matrix by 90 degrees clockwise by reversing its rows and then transposing it.
 
 
-
 <h2>Handling Different Degrees of Rotation:</h2>
 These methods can be extended to handle rotations by 180 and 270 degrees by adjusting the transposition and reversal logic accordingly, providing flexibility in rotation operations.
-
 
 
 <h2>Unified Rotation Function:</h2>
