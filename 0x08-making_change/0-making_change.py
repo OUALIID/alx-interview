@@ -1,4 +1,11 @@
+#!/usr/bin/python3
+"""
+0x08. Making Change
+"""
+
+
 def makeChange(coins, total):
+    """Returns the fewest number of coins needed to meet the given total."""
     if total <= 0:
         return 0
 
