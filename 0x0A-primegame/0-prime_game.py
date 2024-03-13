@@ -1,8 +1,13 @@
 #!/usr/bin/python3
+"""
+0x0A. Prime Game
+"""
+
 
 def isWinner(x, nums):
+    """Prime game winner determination"""
     primes_count = 0
-    maria = 0 
+    maria = 0
 
     for n in nums:
         for i in range(2, n + 1):
