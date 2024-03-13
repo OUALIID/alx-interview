@@ -9,8 +9,8 @@ def isWinner(x, nums):
     if x < 1 or not nums:
         return None
 
-    m_wins = 0
-    b_wins = 0
+    maria = 0
+    ben = 0
 
     n = max(nums)
     primes = [True] * (n + 1)
@@ -23,10 +23,12 @@ def isWinner(x, nums):
 
     for n in nums:
         count = sum(primes[2:n+1])
-        b_wins += count % 2 == 0
-        m_wins += count % 2 == 1
+        ben += count % 2 == 0
+        maria += count % 2 == 1
 
-    if m_wins == b_wins:
+    if maria > ben:
+        return "Maria"
+    elif ben > maria:
+        return "Ben"
+    else:
         return None
-
-    return 'Maria' if m_wins > b_wins else 'Ben'
