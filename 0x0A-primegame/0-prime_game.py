@@ -13,14 +13,21 @@ def isWinner(x, nums):
     ben = 0
 
     for n in nums:
-        prime_count = 0
-        for i in range(2, n + 1):
-            if all(i % j != 0 for j in range(2, int(i ** 0.5) + 1)):
-                prime_count += 1
-        if prime_count % 2 != 0:
-            maria += 1
-        else:
-            ben += 1
+        # Generate a list of prime numbers
+        primes = [True] * (n + 1)
+        primes[0] = primes[1] = False
+
+        for i in range(2, int(n ** 0.5) + 1):
+            if primes[i]:
+                for j in range(i * i, n + 1, i):
+                    primes[j] = False
+
+        # Check if there's at least one prime number left
+        if any(primes[i] for i in range(2, n + 1)):
+            if n % 2 == 0:  # Even round number, Ben's turn
+                ben += 1
+            else:  # Odd round number, Maria's turn
+                maria += 1
 
     if maria > ben:
         return "Maria"
