@@ -6,6 +6,9 @@
 
 def isWinner(x, nums):
     """Prime game winner determination"""
+    if x < 1 or not nums:
+        return None
+
     primes_count = 0
     maria = 0
 
