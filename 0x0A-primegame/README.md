@@ -4,7 +4,7 @@
 
 
 <h2>Introduction:</h2>
-Prime numbers, game theory, and algorithm optimization converge in a fascinating challenge: determining the winner of a strategic game centered around the removal of prime numbers and their multiples from a set of consecutive integers. This guide offers a deep dive into the concepts needed to excel in such games, providing a blend of mathematical understanding and practical programming techniques. Through clear explanations, examples, and code snippets, readers will gain proficiency in prime number manipulation, strategic decision-making, and efficient algorithm design.
+Prime numbers, game theory, and algorithm optimization converge in a fascinating challenge: determining the winner in a strategy game centered around eliminating prime numbers and their multiples from a set of consecutive integers. This guide provides a deep dive into the concepts needed to excel at such games, providing a combination of mathematical understanding and practical programming techniques. Through clear explanations, examples, and code snippets.
 
 <h2>Understanding Prime Numbers:</h2>
 Prime numbers are fundamental to this game. They are integers greater than 1 that have no divisors other than 1 and themselves. To identify prime numbers efficiently, we can employ various algorithms, such as trial division or the Sieve of Eratosthenes. The latter is particularly useful for generating prime numbers up to a given limit in linear time complexity.
@@ -172,4 +172,4 @@ This function simulates a round of the prime number game. It generates all prime
 
 <div align="center">
 <h2>Conclusion:</h2>
-Mastering prime number games requires a solid grasp of prime number properties, strategic thinking informed by game theory, and efficient algorithmic techniques like dynamic programming. By delving into these concepts and applying them in Python programming, players can navigate competitive gameplay with confidence and emerge victorious. With this guide, readers are equipped to tackle prime number games with finesse, unraveling their complexities and enjoying the strategic thrill they offer.</div>
+Mastering prime number games requires a solid grasp of prime number properties, strategic thinking informed by game theory, and efficient algorithmic techniques like dynamic programming. By delving into these concepts and applying them in Python programming, players can navigate competitive gameplay with confidence and emerge victorious.</div>
